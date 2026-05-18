@@ -38,7 +38,7 @@ brew install flex bison
 
 - Step 1: Save the program file as <name>.l
 - Step 2: Generate C Source File `flex <name>.l` -> This generates: lex.yy.c
-- Step 3: Compile the Program `gcc lex.yy.c -o <some_name> -lfl` -> If -lfl gives an error: `gcc lex.yy.c -o lexer`
+- Step 3: Compile the Program `gcc lex.yy.c -o <some_name> -lfl` -> If -lfl gives an error: `gcc lex.yy.c -o <some_name>`
 - Step 4: Run the Program -> ```./<some_name>```
 
 ---
